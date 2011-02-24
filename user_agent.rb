@@ -56,11 +56,11 @@ module UserAgent
               "Opera" => /Opera/,
               "Safari" => /Safari/}
 
-  def os_list
+  def self.os_list
     OPERATION_SYSTEMS.keys
   end
 
-  def browsers_list
+  def self.browsers_list
     BROWSERS.keys
   end
 
